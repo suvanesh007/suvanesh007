@@ -42,7 +42,7 @@ public class TaskTestNG {
 		d.selectByValue("31");
 		driver.findElement(By.id("firstpassword")).sendKeys(Password);
 		driver.findElement(By.id("secondpassword")).sendKeys(FPassword);
-		driver.findElement(By.id("submitbtn")).click();
+		//driver.findElement(By.id("submitbtn")).click();
 
 	}
 }
